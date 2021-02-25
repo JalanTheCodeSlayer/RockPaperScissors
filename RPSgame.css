@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-color: dimgrey;
+	background-image: url('c:/Users/Retta/OneDrive/Desktop/MiracleBank/sky.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+
+
+}
+body{
+	background-size: cover;
+	background-position: relative;
+}
+#head{
+	padding-top: 10px;
+}
+
+header{
+	position: relative;
+	text-align: center;
+	background-color: white;
+	font-family: sans-serif;
+	color: black;
+	font-size: 35px;
+	height: 70px;
+	border-bottom-color: aqua;
+	border-style:  solid;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+
+}
+header:hover{
+	border-bottom-color: red; 
+}
+a{
+	text-decoration: none;
+	color: inherit;
+
+}
+#scoreBoard{
+	position: relative;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 230px;
+	background-color: white;
+	background-image: url('c:/Users/Retta/OneDrive/Desktop/MiracleBank/sky.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: relative;
+
+}
+img{
+	position: relative;
+	text-align: center;
+	max-height: 125px;
+	max-width: 120px;
+	min-width: 120px;
+	display: inline-block;
+	border-style: solid;
+	border-color: white;
+	border-radius: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
+#pics{
+	text-align: center;
+	padding-top: 100px;
+}
+.score{
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+img:hover{
+	border-top-color: aqua;
+	border-right-color: red;
+	border-bottom-color: aqua;
+	border-left-color: red;
+	border-width: 3px;
+}
+#description{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
+
+}
+li{
+	display: inline-block;
+
+}
+#rok{
+	position: relative;
+	right: 60px;
+}
+#sis{
+	position: relative;
+	left: 75px;
+}
+#papr{
+	position: relative;
+	padding-left: 20px;
+}
+
+/* user and cpu border*/
+.name{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: floralwhite;
+	width: 50px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+/*player position*/
+#play{
+	position: relative;
+	right: 115px;
+	bottom: 30px;
+	width: 55px;
+	background-color: red;
+	color: floralwhite;
+}
+/*cpu position*/
+#c{
+	position: relative;
+	bottom: 50px;
+	left: 115px;
+	background-color: aqua;
+	color: floralwhite;
+}
+#userScore{
+	color: red;
+}
+#computerScore{
+	color: aqua;
+}
+#status{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: sans-serif;
+}
